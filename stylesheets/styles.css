@@ -2,8 +2,8 @@
 
 body {
   padding:50px;
-  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#777;
+  font:14px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#222;
   font-weight:300;
 }
 
@@ -16,12 +16,16 @@ p, ul, ol, table, pre, dl {
   margin:0 0 20px;
 }
 
+p {
+  padding:0 .5em;
+}
+
 h1, h2, h3 {
   line-height:1.1;
 }
 
 h1 {
-  font-size:28px;
+  font-size:1.6em;
 }
 
 h2 {
@@ -30,6 +34,13 @@ h2 {
 
 h3, h4, h5, h6 {
   color:#494949;
+}
+
+h3 {
+  padding:.25em .5em;
+  color:#FFF;
+  border-radius:.5em;
+  background-color:#494949;
 }
 
 a {
@@ -158,6 +169,16 @@ header ul a strong {
   display:block;
   color:#222;
 }
+/*
+header p.view {
+  color:#FFF;
+  border-radius:.25em;
+  background-color:#494949;
+}
+*/
+header p.view small {
+  display:inline-block;
+}
 
 section {
   width:500px;
@@ -181,6 +202,12 @@ footer {
   float:left;
   position:fixed;
   bottom:50px;
+}
+
+footer p {
+  color:0;
+  margin:.25em;
+  font-weight:bold;
 }
 
 @media print, screen and (max-width: 960px) {
