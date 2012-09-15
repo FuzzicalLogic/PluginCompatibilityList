@@ -1,6 +1,6 @@
 # PluginCompatibilityList
 ---
-PluginCompatbilityList is a MODx Plugin Resolver for MODx Revolution that you may include in your Transport Package to automatically fix priorities according to which Plugins are currently installed. This Resolver will run on Install, Update, or Uninstall and only adjust known, installed Plugins that may conflict with each other in Priority of shared System Events.
+PluginCompatbilityList is a MODx Plugin Resolver for [MODx Revolution](http://modx.com/) that you may include in your Transport Package to automatically fix priorities according to which Plugins are currently installed. This Resolver will run on Install, Update, or Uninstall and only adjust known, installed Plugins that may conflict with each other in Priority of shared System Events.
 
 This Resolver insures that your addon's Plugin will not break the functionality of another developer's addon, and help to resolve "bug reports" that may arise as a result of a compatibility issue.
 
