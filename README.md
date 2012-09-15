@@ -15,7 +15,7 @@ Depending upon your build package method, the specific steps made may be differe
 * Place wherever you include your resolvers.
 * Review the $fixPlugins array.
 * Add this resolver to your Plugins Resolver list. 
-  * In MyComponent, this is done in pluginname.build.config.
+  * In [MyComponent](http://github.com/BobRay/MyComponent/), this is done in pluginname.build.config.
 
 ## Adjusting the Array
 If a System Event is not listed:
