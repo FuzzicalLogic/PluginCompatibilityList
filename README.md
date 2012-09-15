@@ -9,7 +9,7 @@ If your Plugin is not listed here, please fork my repository, add your Plugins, 
 Repository: [http://github.com/FuzzicalLogic/PluginCompatibilityList](http://github.com/FuzzicalLogic/PluginCompatibilityList)
 
 ## Usage
-Depending upon your build package method, the specific steps made may be different. If your Plugin is not
+Depending upon your build package method, the specific steps made may be different.
 
 * Download the file.
 * Place wherever you include your resolvers.
